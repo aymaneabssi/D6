@@ -1,0 +1,49 @@
+ *{
+     margin: 0;
+     padding: 0;
+     background-color:rgba(247, 201, 248, 0.068);
+ }
+ .phone {
+     width: 50%;
+     position:relative;
+     left: 25%;
+ }
+ 
+ th {
+     text-align: center;
+ }
+ table{
+     margin-top: 50px;
+ }
+ .header{
+     text-align: center;
+     background-color: rgba(96, 157, 236, 0.623);
+     padding: 50px;
+    color: rgb(35, 7, 53);
+ }
+ h3{
+     text-align: center;
+     background-color: cornflowerblue;
+     color:whitesmoke ;
+    padding: 20px;
+    
+ }
+ a{
+     text-decoration: none;
+     color: red;
+ }
+ .footer{
+     margin-top: 100px;
+     background-color: rgb(27, 20, 66);
+     color: blanchedalmond;
+ }
+ textarea{
+     color: rgb(0, 0, 0);
+     background-color: cornsilk;
+ }
+ #submitt{
+     background-color: blanchedalmond;
+ }
+ a{
+     color: chocolate;
+ }

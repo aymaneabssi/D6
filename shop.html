@@ -1,0 +1,127 @@
+ <!--You have been assigned to the creation of a Smartphone Shop Website. The homepage you're about to write is just a showcase of the products of the shop with some extra information. No shopping cart / checkout features are required.
+
+Complete exercises from 1 to 6 with plain HTML.
+
+EX1.: Add H1 title with the name of the shop
+
+EX2.: Add a TABLE with the top 5 products of the shop
+
+EX3.: Each product should have one image, title, description and price
+
+EX4.: Add the links to Amazon products for each item in the table
+
+EX5.: Add a footer with the address and the name of the shop
+
+EX6.: Add a message board where the user can type a message in it
+
+EXTRA (use JS here)
+
+EX7.: Write a function to change the H1 text
+
+EX8.: Write a function to change the page background color
+
+EX9.: Write a function to change the footer address with a fake one
+
+EX10.: Write a function to add a CSS class to every Amazon link
+
+EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+
+EX12: Write a function to color the price of every product in a different one every time -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shope.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TECH-PHONES</h1>
+    </div>
+    <div class="main">
+        <h3>*Top Phones this year*</h3>
+        <table>
+            <tr>
+                <th>Apple iPhone 12</th> 
+                <th>Samsung Galaxy S20</th> 
+                <th>Google Pixel 4A 5G</th>        
+                <th>OnePlus 8</th>  
+                <th>Motorola Edge Plus</th>
+            </tr>
+            <tr>
+                <td><img class="phone" src="https://images-na.ssl-images-amazon.com/images/I/71MtcgbTdXL._AC_SL1500_.jpg" alt="IPhone 12"></td>
+                <td><img class="phone" src="https://images-na.ssl-images-amazon.com/images/I/71pztG2BpUL._AC_SL1500_.jpg" alt="SAMSUNG GALAXY S20"></td>
+                <td><img id="googlePixel" class="phone" src="https://images-na.ssl-images-amazon.com/images/I/51jKko5RsHL._AC_SL1000_.jpg" alt="Google Pixel 4A 5G"></td>
+                <td><img class="phone" src="https://images-na.ssl-images-amazon.com/images/I/71%2BRIkc-12L._AC_SL1500_.jpg" alt="OnePlus 8"></td>
+                <td><img class="phone" src="https://images-na.ssl-images-amazon.com/images/I/81GoUF%2BRPSL._AC_SL1500_.jpg" alt="Motorola Edge Plus"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p><em>Display Super Retina XDR da 6,1"
+                        Ceramic Shield, più duro di qualsiasi vetro per smartphone
+                        5G per download velocissimi e streaming ad alta qualità
+                        A14 Bionic, il chip più veloce mai visto su uno smartphone
+                        Evoluto sistema a doppia fotocamera da 12MP (ultra-grandangolo, grandangolo) con modalità Notte, Deep Fusion, Smart HDR 3 e registrazione video HDR a 4K in Dolby Vision
+                        Fotocamera anteriore TrueDepth da 12MP con modalità Notte e registrazione video HDR a 4K in Dolby Vision
+                        Resistenza all’acqua di grado IP68, la migliore del settore</em></p>
+                </td>
+                <td>
+                    <p><em>Display Super Retina XDR da 6,1"
+                        Ceramic Shield, più duro di qualsiasi vetro per smartphone
+                        5G per download velocissimi e streaming ad alta qualità
+                        A14 Bionic, il chip più veloce mai visto su uno smartphone
+                        Evoluto sistema a doppia fotocamera da 12MP (ultra-grandangolo, grandangolo) con modalità Notte, Deep Fusion, Smart HDR 3 e registrazione video HDR a 4K in Dolby Vision
+                        Fotocamera anteriore TrueDepth da 12MP con modalità Notte e registrazione video HDR a 4K in Dolby Vision
+                        Resistenza all’acqua di grado IP68, la migliore del settore</em></p>
+                </td>
+                <td>
+                    <p><em>Display Super Retina XDR da 6,1"
+                        Ceramic Shield, più duro di qualsiasi vetro per smartphone
+                        5G per download velocissimi e streaming ad alta qualità
+                        A14 Bionic, il chip più veloce mai visto su uno smartphone
+                        Evoluto sistema a doppia fotocamera da 12MP (ultra-grandangolo, grandangolo) con modalità Notte, Deep Fusion, Smart HDR 3 e registrazione video HDR a 4K in Dolby Vision
+                        Fotocamera anteriore TrueDepth da 12MP con modalità Notte e registrazione video HDR a 4K in Dolby Vision
+                        Resistenza all’acqua di grado IP68, la migliore del settore</em></p>
+                </td>
+                <td>
+                    <p><em></em>Display Super Retina XDR da 6,1"
+                        Ceramic Shield, più duro di qualsiasi vetro per smartphone
+                        5G per download velocissimi e streaming ad alta qualità
+                        A14 Bionic, il chip più veloce mai visto su uno smartphone
+                        Evoluto sistema a doppia fotocamera da 12MP (ultra-grandangolo, grandangolo) con modalità Notte, Deep Fusion, Smart HDR 3 e registrazione video HDR a 4K in Dolby Vision
+                        Fotocamera anteriore TrueDepth da 12MP con modalità Notte e registrazione video HDR a 4K in Dolby Vision
+                        Resistenza all’acqua di grado IP68, la migliore del settore</em></p>
+                </td>
+                <td>
+                    <p><em>Display Super Retina XDR da 6,1"
+                        Ceramic Shield, più duro di qualsiasi vetro per smartphone
+                        5G per download velocissimi e streaming ad alta qualità
+                        A14 Bionic, il chip più veloce mai visto su uno smartphone
+                        Evoluto sistema a doppia fotocamera da 12MP (ultra-grandangolo, grandangolo) con modalità Notte, Deep Fusion, Smart HDR 3 e registrazione video HDR a 4K in Dolby Vision
+                        Fotocamera anteriore TrueDepth da 12MP con modalità Notte e registrazione video HDR a 4K in Dolby Vision
+                        Resistenza all’acqua di grado IP68, la migliore del settore</em></p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong><a  href="https://www.amazon.it/dp/B08L5P1PZ7/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=4zFINpMwJl6NRQQjICY8NQ&hsa_cr_id=4089361130502&pd_rd_plhdr=t&pd_rd_r=34b8c03c-22f9-43b8-b1af-daae94b06875&pd_rd_w=W7fJp&pd_rd_wg=PC9Bx&ref_=sbx_be_s_sparkle_mcd_asin_0_img"target="_blank">	849,00 € <br>in AMAZON</a></strong></td>
+                <td><strong><a href="https://www.amazon.it/Smartphone-Fotocamere-Posteriori-Espandibili-Batteria/dp/B084LF8C3T/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=S20&qid=1612794054&sr=8-3" target="_blank">649,00 € <br>In AMAZON</a></strong></td>
+                <td><strong><a href="https://www.amazon.it/Google-Pixel-6-24-Singola-Tipo-C/dp/B08P56BQVC/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Google+Pixel+4A+5G&qid=1612794232&sr=8-2" target="_blank">477,00 € <br>In AMAZON</a></strong></td>
+                <td><strong><a href="https://www.amazon.it/OnePlus-Smartphone-Fotocamera-Quadrupla-Ricarica/dp/B07XYJPGCG/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=OnePlus+8&qid=1612794319&sr=8-2" target="_blank">729,00 € <br>In AMAZON</a></strong></td>
+                <td><strong><a href="https://www.amazon.it/Motorola-Edge-Plus-Snapdragon-Octa-Core/dp/B0882BNLTK/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Motorola+Edge+Plus&qid=1612794392&sr=8-1" target="_blank">917,00 € <br>In AMAZON</a></strong></td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">    
+        <h2>THECH-PHONES</h2>
+        <strong>GIVE US YOUR FEEDBACK HERE:</strong>
+        <form action="">
+            
+            <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="WRITE HERE" ></textarea>
+            <input type="submit" value="SUBMIT"id="submitt">
+        </form>
+        <address>5739 N Richmond St Apt 2, Chicago, IL 60659-4866</address>
+    </div>
+</body>
+</html>
